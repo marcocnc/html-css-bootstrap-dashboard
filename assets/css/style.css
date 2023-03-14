@@ -7,3 +7,25 @@
 header{
     height: 80px;
 }
+
+.logo .mobile-image{
+    width: 50px;
+    vertical-align: middle;
+}
+
+.logo .desktop-image{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 10%;
+}
+
+.try-to-search{
+    width: 80%;
+}
+
+.header-icons{
+    width: 10%;
+}
