@@ -19,75 +19,105 @@
 </head>
 <body>
     
-    <!-- Header -->
-    <header class="debug">
-        <nav class="header-nav d-flex align-items-center h-100 debug ">
-            <div class="container-fluid debug ">
-                <div class="row">
-                    <div class="col-1 d-flex align-items-center">
-                        <div class="logo">
-                            <a href="#">
-                                <img src="assets/img/mobile-logo.png" alt="mobile-logo" class="mobile-image d-lg-none">
-                                <img src="assets/img/logo.svg" alt="logo" class="desktop-image d-none d-lg-inline">
-                            </a>
+    <div class="container-wrapper">
+
+        <!-- Header -->
+        <header class="debug">
+            <nav class="header-nav d-flex align-items-center h-100 debug ">
+                <div class="container-fluid debug ">
+                    <div class="row">
+                        <div class="col-1 d-flex align-items-center">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/img/mobile-logo.png" alt="mobile-logo" class="mobile-image d-lg-none">
+                                    <img src="assets/img/logo.svg" alt="logo" class="desktop-image d-none d-lg-inline">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-9 ps-5 pt-lg-1">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                            </form>
+                        </div>
+                        <div class="col-2 d-flex align-items-center ">
+                            <div class="header-icons d-flex">
+                                <span class="d-none d-lg-block">i</span>
+                                <span class="d-none d-lg-block">i</span>
+                                <span class="d-none d-lg-block">i</span>
+                                <span class="text-center">i</span>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+    
+                    </div>
+            </nav>
+        </header>
+    
+        <!-- Main -->
+        <main>
+    
+            <!-- Sidebar -->
+            <nav id="sidebar">
+                <div class="row text-center justify-content-between h-100">
+                    <ul class="side-icons pt-3">
+                        <li class="d-lg-flex justify-content-lg-center">
+                            <span class="pe-2">i</span>
+                            <span class="d-none d-lg-block">titolo</span>
+                        </li>
+                        <li class="d-lg-flex justify-content-lg-center">
+                            <span class="pe-2">i</span>
+                            <span class="d-none d-lg-block">titolo</span>
+                        </li>
+                        <li class="d-lg-flex justify-content-lg-center">
+                            <span class="pe-2">i</span>
+                            <span class="d-none d-lg-block">titolo</span>
+                        </li>
+                    </ul>
+                    <div class="admin d-flex flex-column justify-content-end pb-3">
+                        <div class="admin">
+                            <span class="pe-2">i</span>
+                            <span class="d-none d-lg-inline">titolo</span>
                         </div>
                     </div>
-                    <div class="col-9 ps-5 pt-lg-1">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                        </form>
-                    </div>
-                    <div class="col-2 d-flex align-items-center ">
-                        <div class="header-icons d-flex">
-                            <span class="d-none d-lg-block">i</span>
-                            <span class="d-none d-lg-block">i</span>
-                            <span class="d-none d-lg-block">i</span>
-                            <span class="text-center">i</span>
+                </div>
+            </nav>
+            <!-- /Sidebar -->
+            
+            <div class="content debug">
+                <!-- CTA -->
+                <section class="cta debug ps-2">
+                    <div class="row-cols-3 d-lg-flex justify-content-lg-between">
+                        <div class="col pb-2 order-lg-2 text-lg-center">
+                            <span>Nuovo Studente</span>
+                            <span>i</span>
+                        </div>
+                        <div class="col pb-2 order-lg-0">
+                            <span>Boolean</span>
+                            <span>Piano Blaze</span>
+                            <div class="apps">
+                                <span>3 app</span>
+                                <span>icona</span>
+                                <span class="d-lg-none"> + </span>
+                                <span class="d-none d-lg-inline">icona</span>
+                                <span class="d-none d-lg-inline">icona</span>
+                                <span class="d-none d-lg-inline">icona</span>
+                            </div>
+                        </div>
+                        <div class="col order-lg-1 ">
+                            <span>Studenti online negli ultimi 30 minuti</span>
+                            <div class="students">
+                                <span>125</span>
+                            </div>
                         </div>
                     </div>
-                    
-                    
-                    
-                </div>
-
-                </div>
-        </nav>
-    </header>
-
-    <!-- Main -->
-    <main>
-
-        <!-- Sidebar -->
-        <nav id="sidebar">
-            <div class="row text-center justify-content-between h-100">
-                <ul class="side-icons pt-3">
-                    <li class="d-lg-flex justify-content-lg-center">
-                        <span class="pe-2">i</span>
-                        <span class="d-none d-lg-block">titolo</span>
-                    </li>
-                    <li class="d-lg-flex justify-content-lg-center">
-                        <span class="pe-2">i</span>
-                        <span class="d-none d-lg-block">titolo</span>
-                    </li>
-                    <li class="d-lg-flex justify-content-lg-center">
-                        <span class="pe-2">i</span>
-                        <span class="d-none d-lg-block">titolo</span>
-                    </li>
-                </ul>
-                <div class="admin d-flex flex-column justify-content-end pb-3">
-                    <div class="admin">
-                        <span class="pe-2">i</span>
-                        <span class="d-none d-lg-inline">titolo</span>
-                    </div>
-                </div>
+                </section>
+    
             </div>
-        </nav>
-        <!-- /Sidebar -->
-        
-
-        <!-- CTA -->
-        <section id="cta debug"></section>
-    </main>
+        </main>
+    </div>
 
 
 
