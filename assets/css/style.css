@@ -71,14 +71,17 @@ main{
 }
 
 /* To do */
-.to-do{
+/* .to-do{
     height:30vh;
-}
+} */
 
-.checkitem{
-    padding: 10px 0;
+.checklist{
     border: 1px solid #000;
 }
+
+
+
+
 
 /* Responsive custom */
 @media screen and (min-width: 992px){
