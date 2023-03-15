@@ -6,11 +6,17 @@
 
 header{
     height: 80px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 main{
     height: 100vh;
     background-color: rgba(0, 255, 255, 0.269);
+    padding-top: 80px;
 }
 
 /* Header */
@@ -20,21 +26,11 @@ main{
 }
 
 .logo .desktop-image{
-    width: 100%;
+    width: 110px;
     vertical-align: middle;
 }
 
-.logo{
-    width: 10%;
-}
 
-.try-to-search{
-    width: 80%;
-}
-
-.header-icons{
-    width: 10%;
-}
 
 /* Main */
 #sidebar{
