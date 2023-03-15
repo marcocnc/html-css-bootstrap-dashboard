@@ -118,10 +118,10 @@
 
                 <!-- Dashboard -->
                 <div class="dashboard pt-3 px-2">
-                    <div class="row-cols-1 row-cols-xl-2 d-xl-flex flex-xl-wrap">
-                        <div class="col-8">
+                    <div class="row">
+                        <div class="col-xl-8">
                             <!-- Table -->
-                            <div class="card radius ms-2 pb-3 debug">
+                            <div class="card radius ms-2 pb-3 mb-2 debug">
                                 <h2 class="pb-3 ps-1">Titolo</h2>
                                 <table class="table table-hover">
                                     <thead>
@@ -231,9 +231,54 @@
                                           
                             </div>
                             <!-- /Table -->
-
+                            
+                            <!-- FAQ -->
+                            <div id="faq">
+                                <div class="card radius ms-2 pb-3 mb-2 debug">
+                                    <h2 class="pb-3 ps-1">Titolo</h2>
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              Come aggiungere un nuovo studente?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis mollitia asperiores nostrum eaque vero rem, temporibus sint similique veritatis. Distinctio quaerat nihil accusantium magnam aliquid, voluptatum beatae unde? Fugit, quia.
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                              Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis mollitia asperiores nostrum eaque vero rem, temporibus sint similique veritatis. Distinctio quaerat nihil accusantium magnam aliquid, voluptatum beatae unde? Fugit, quia.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              Posso usare questa dashboard da mobile?
+                                            </button>
+                                          </h2>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis mollitia asperiores nostrum eaque vero rem, temporibus sint similique veritatis. Distinctio quaerat nihil accusantium magnam aliquid, voluptatum beatae unde? Fugit, quia.
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-4">
+
+                        <div class="col-xl-4">
+                            <!-- To do -->
                             <div class="card to-do radius debug ms-2">
                                 <h2 class="pb-3 ps-1">Titolo</h2>
                                 <div class="checklist radius mb-2 mx-3">
@@ -253,18 +298,16 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
 
 
-                        <!-- To do -->
+
+
+
                      
 
 
-                        <div class="col-xl-8 radius debug">col</div>
-
-
-                        <div class="col-xl-4 radius debug">col</div>
+                        
                     </div>
                 </div>
             </div>
