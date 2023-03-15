@@ -19,7 +19,7 @@ header{
 
 main{
     height: 100%;
-    background-color: rgba(0, 255, 255, 0.269);
+    /* background-color: rgba(0, 255, 255, 0.269); */
     padding-top: 80px;
     display: flex;
 }
@@ -37,16 +37,20 @@ main{
 
 .content{
     width: 100%;
-    height: 100%s;
+    height: 100vh;
 }
 
 /* Main */
 #sidebar{
     width: 80px;
-    height: 100%;
+    height: 100vh;
     flex-shrink: 0;
     background-color: #ffffff2c;
     border: 1px solid #000;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #12283E;
+    color:white;
+    overflow: hidden;
 }
 
 .cta{
@@ -55,7 +59,16 @@ main{
     
 }
 
+/* Table */
+.dashboard h2{
+    border-bottom: 1px solid #000;
+    background-color: lightgrey;
+    border-radius: 10px 10px 0 0;
+}
 
+.dashboard .radius{
+    border-radius: 10px;
+}
 
 
 
