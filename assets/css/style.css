@@ -1,3 +1,8 @@
+body{
+    height: 100vh;
+    font-size: 14px;
+}
+
 .debug{
     min-height: 50px;
     background-color: #ff010149;
@@ -5,23 +10,22 @@
 }
 
 .container-wrapper{
-    height: 100vh;
+    display: flex;
+    height: calc(100% - 80px);
 }
 
 header{
     height: 80px;
-    position:fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 999;
+    
 }
 
 main{
     height: 100%;
-    /* background-color: rgba(0, 255, 255, 0.269); */
-    padding-top: 80px;
     display: flex;
+    flex-grow: 1;
+    overflow-y: auto;
+    width: calc(100vh - 80px);
 }
 
 /* Header */
@@ -37,10 +41,8 @@ main{
 
 .content{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
-
-/* Main */
 #sidebar{
     width: 80px;
     height: 100%;
@@ -52,6 +54,8 @@ main{
     color:white;
     overflow: hidden;
 }
+
+/* Main */
 
 .cta{
     width: 100%;
@@ -71,17 +75,24 @@ main{
 }
 
 /* To do */
-/* .to-do{
-    height:30vh;
-} */
-
 .checklist{
     border: 1px solid #000;
 }
 
+/* Graph */
+.stat{
+    margin-top: 200px;
+}
 
+.graph-image img{
+    width: 100%;
+    border-bottom: 0px;
+}
 
-
+.graph-desc ul{
+    list-style: none;
+    padding-left: 0;
+}
 
 /* Responsive custom */
 @media screen and (min-width: 992px){
