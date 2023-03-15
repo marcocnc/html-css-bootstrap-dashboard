@@ -117,11 +117,11 @@
 
 
                 <!-- Dashboard -->
-                <div class="dashboard pt-3 ps-2">
+                <div class="dashboard pt-3 px-2">
                     <div class="row-cols-1 row-cols-xl-2 d-xl-flex flex-xl-wrap">
                         
                         <!-- Table -->
-                        <div class="col-xl-8 radius debug">
+                        <div class="col-xl-8 radius pe-3 pb-3 debug">
                             <h2 class="pb-3 ps-1">Titolo</h2>
                             <table class="table ps-1 table-hover">
                                 <thead>
@@ -231,7 +231,26 @@
                                       
                         </div>
                         <!-- /Table -->
-                        <div class="col-xl-4 radius debug">col</div>
+
+
+                        <!-- To do -->
+                        <div class="col-xl-4 to-do radius debug px-1">
+                            <h2 class="pb-3 ps-1">Titolo</h2>
+                            <div class="checklist">
+                                <div class="checkitem px-2">
+                                    <input type="checkbox" id="kickoff">
+                                    <label for="kickoff">Kickoff nuove classi</label>
+                                </div>
+                                 
+                                
+                                <input type="checkbox" id="classe75" class="checkitem"> 
+                                <label for="classe75">Lezione su Bootstrap 5 in Classe 75</label>
+                                
+                                <input type="checkbox" id="username" class="checkitem"> 
+                                <label for="username">Controllare username github studenti</label>
+                            </div>
+                        </div>
+                     
 
 
                         <div class="col-xl-8 radius debug">col</div>
@@ -240,7 +259,6 @@
                         <div class="col-xl-4 radius debug">col</div>
                     </div>
                 </div>
-    
             </div>
         </main>
     </div>
